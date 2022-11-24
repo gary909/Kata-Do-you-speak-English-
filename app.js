@@ -1,5 +1,10 @@
 function spEng(sentence) {
-    //write your code here
+    let mySentence = sentence.toLowerCase();
+    if (mySentence.includes("english")) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 console.log(spEng("english")); // true
